@@ -2,7 +2,7 @@ import { Filters, ToDoList } from "./todo.js";
 import { CustomComponent, createState, Css, init, registerRoute } from "../framework/index.js";
 Css("src/styles.css")
 
-let index = 0 
+let index = 0 //for counting the id of todos
 
 const allTodos = createState([]) //ToDo objects
 const currentView = createState("All")
