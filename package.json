@@ -5,7 +5,8 @@
   "main": "app.js",
   "author": {
     "name": "Samuel Uzoagba",
-    "email": "samuzoagba@gmail.com"
+    "email": "samuzoagba@gmail.com",
+    "url": "https://01.kood.tech/git/suzoagba"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
