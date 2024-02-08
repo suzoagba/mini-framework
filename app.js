@@ -7,7 +7,16 @@ const server = http.createServer((req, res) => {
     if (filePath === './') {
         filePath = './index.html';
     }
-    
+    if (filePath === './all') {
+        filePath = './index.html';
+    }
+    if (filePath === './completed') {
+        filePath = './index.html';
+    }
+    if (filePath === './active') {
+        filePath = './index.html';
+    }
+
     const extname = String(path.extname(filePath)).toLowerCase();
     const contentType = {
         '.html': 'text/html',
